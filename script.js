@@ -9,7 +9,7 @@ $('#myForm').submit(function(event) {
 
 	$(this).children('input:text').each(function(index, elem) {
 		var value = $(elem).val();
-		var newThing = $('<li>' + value + '</li>')
+		var newThing = $('<li>X ' + value + '</li>')
 		$('ul').append(newThing);
 		$(elem).val('');
 	});

@@ -1,8 +1,8 @@
 h1 {
 	font-size: 75px;
-	font-family: 'Amatic SC', cursive;;
+	font-family: 'Amatic SC', cursive;
+	color: white;
 }
-
 
 ul {
 	padding: 10px;
@@ -10,12 +10,22 @@ ul {
 }
 
 li {
+	list-style: none;
 	font-size: 30px;
 	font-family: 'Reenie Beanie', cursive;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
 }
 
 body {
 	margin: 0 auto;
-	margin-left: 50px;
+	margin-left: 100px;
 	margin-top: 15px;
+	background-color: #cbe8df;
 }
+
+input {
+	margin-right: 10px;
+}
+
